@@ -41,8 +41,8 @@ public:
                             ans.push_back(bns);
                         }
                 }
-                memo[N] = ans;
             }
+            memo[N] = ans;
         }
         return memo[N];
     }
